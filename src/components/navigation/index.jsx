@@ -1,6 +1,7 @@
 "use client"
 import { BtnList } from '@/app/data'
 import React from 'react'
+import NavButton from './NavButton';
 
 const Navigation = () => {
   const angleIncrement = 360/BtnList.length;
@@ -13,10 +14,7 @@ const Navigation = () => {
                   const radius = 'calc(20vw - 1rem)'
                   const x = `calc(${radius}*${Math.cos(angleInRad)})`;
                   const y = `calc(${radius}*${Math.sin(angleInRad)})`;
-                  return <button key={index} style={{
-                    transform: `translate(${x}, ${y})`,
-                    position:'absolute'
-                  }}>{btn.label}</button>
+                  return <NavButton key = {btn.label} NavButton x={x} y={y} {...btn} />
               })
           }
       </div>
