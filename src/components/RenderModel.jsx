@@ -12,7 +12,7 @@ const RenderModel = ({children, className}) => {
         <Suspense fallback={null}>
             {children}
         </Suspense>
-        <Environment preset='city' />
+        <Environment preset='dawn' />
     </Canvas>
   )
 }
