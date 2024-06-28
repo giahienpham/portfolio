@@ -30,11 +30,11 @@ const NavButton = ({x, y, label, link, icon, newTab}) => {
     <div className='absolute cursor-pointer z-50'
     style={{transform: `translate(${x}, ${y})`}}
     >
-      <Link href={link} target={newTab ? '_blank' : '_self'} className='text-foreground rounded-full flex items-center justify-center
+      <Link href={link} target={newTab ? '_blank' : '_self'} className='text-foreground group rounded-full flex items-center justify-center
       bg-background/20 border border-accent/30 border-solid backdrop-blur-[6px] shadow-glass-inset hover:shadow-glass-sm
       ' 
             aria-label={label} name={label}>
-              <span className='relative w-14 h-14 p-4'>
+              <span className='relative w-14 h-14 p-4 animate-spin-slow-reverse group-hover:pause group-hover:text-accent'>
                 {getIcon(icon)}
               </span>
       </Link>
