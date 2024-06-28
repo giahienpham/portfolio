@@ -7,7 +7,7 @@ const Navigation = () => {
   const angleIncrement = 360/BtnList.length;
   return (
     <div className=' w-full fixed h-screen items-center flex justify-center'>
-      <div className='flex items-center justify-center relative hover:pause animate-spin-slow'> 
+      <div className='flex items-center justify-center relative hover:pause animate-spin-slow group'> 
           {
               BtnList.map((btn, index) => {
                   const angleInRad = (index * angleIncrement * Math.PI)/180
