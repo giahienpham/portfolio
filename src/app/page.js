@@ -12,9 +12,7 @@ export default function Home() {
           {/* Navigation and 3d model */}
           <Navigation></Navigation>
           <RenderModel>
-            <Wizard>
-
-            </Wizard>
+            <Wizard/>
           </RenderModel>
         </div>
     </main>
