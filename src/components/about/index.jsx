@@ -31,10 +31,20 @@ const AboutDetails = () => {
                 4+ <sub className='font-semibold text-base'>years of experience</sub>
             </p>
             </ItemLayout>
-            <ItemLayout className={'col-span-6 p-0'}>
-                <img className='w-full h-auto' src='https://github-readme-stats.vercel.app/api?username=giahienpham&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=27E8A7' 
+            <ItemLayout className={'col-span-4 !p-0'}>
+                <img className='w-full h-auto' src='https://github-readme-stats.vercel.app/api/top-langs?username=giahienpham&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=27E8A7&icon_color=27E8A7&text_bold=false' 
                 alt = 'HienPham' loading='lazy'/>
             </ItemLayout>
+            <ItemLayout className={'col-span-8 !p-0'}>
+                <img className='w-full h-auto' src='https://github-readme-stats.vercel.app/api?username=giahienpham&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=27E8A7&icon_color=27E8A7&text_bold=false' 
+                alt = 'HienPham' loading='lazy'/>
+            </ItemLayout>
+
+            <ItemLayout className={'col-span-full'}>
+                <img className='w-full h-auto' src='https://skillicons.dev/icons?i=js,html,css,aws,cpp,docker,flask,git,gitlab,gradle,java,linux,materialui,mongodb,nestjs,nextjs,nodejs,npm,postgres,postman,pytorch,r,react,spring,tensorflow,threejs' 
+                alt = 'HienPham' loading='lazy'/>
+            </ItemLayout>
+            
         </div>
     </section>
   )
