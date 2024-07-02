@@ -32,11 +32,11 @@ const AboutDetails = () => {
             </p>
             </ItemLayout>
             <ItemLayout className={'col-span-4 !p-0'}>
-                <img className='w-full h-auto' src='https://github-readme-stats.vercel.app/api/top-langs?username=giahienpham&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=27E8A7&icon_color=27E8A7&text_bold=false' 
+                <img className='w-full h-auto' src='https://github-readme-stats-test-chi.vercel.app/api/top-langs?username=giahienpham&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=27E8A7&icon_color=27E8A7&text_bold=false' 
                 alt = 'HienPham' loading='lazy'/>
             </ItemLayout>
             <ItemLayout className={'col-span-8 !p-0'}>
-                <img className='w-full h-auto' src='https://github-readme-stats.vercel.app/api?username=giahienpham&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=27E8A7&icon_color=27E8A7&text_bold=false' 
+                <img className='w-full h-auto' src='https://github-readme-stats-test-chi.vercel.app/api?username=giahienpham&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=27E8A7&icon_color=27E8A7&text_bold=false' 
                 alt = 'HienPham' loading='lazy'/>
             </ItemLayout>
 
@@ -44,6 +44,16 @@ const AboutDetails = () => {
                 <img className='w-full h-auto' src='https://skillicons.dev/icons?i=js,html,css,aws,cpp,docker,flask,git,gitlab,gradle,java,linux,materialui,mongodb,nestjs,nextjs,nodejs,npm,postgres,postman,pytorch,r,react,spring,tensorflow,threejs' 
                 alt = 'HienPham' loading='lazy'/>
             </ItemLayout>
+            
+            <ItemLayout className={'col-span-6 !p-0'}>
+            <img className='w-full h-auto' src="https://github-readme-streak-stats.herokuapp.com?user=giahienpham&theme=vue-dark&hide_border=true&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B&sideLabels=27E8A7&sideNums=27E8A7&currStreakNum=27E8A7&fire=FB8C00" alt = 'HienPham' loading='lazy'/>
+            </ItemLayout>
+
+            <ItemLayout className={'col-span-6 !p-0'}>
+                <img className='w-full h-auto' src='https://github-readme-stats-test-chi.vercel.app/api/pin/?username=giahienpham&repo=hime-platform&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=27E8A7&icon_color=27E8A7&text_bold=false&description_lines_count=2' 
+                alt = 'HienPham' loading='lazy'/>
+            </ItemLayout>
+
             
         </div>
     </section>
