@@ -27,7 +27,7 @@ export const projectsData = [
   {
     id: 2,
     name: "ArtGallery Online",
-    description: "Digital art showcase platform",
+    description: "Digital art showcase platform Digital art showcase platform Digital art showcase platform Digital art showcase platform Digital art showcase platform Digital art showcase platform Digital art showcase platform Digital art showcase platform Digital art showcase platform Digital art showcase platform Digital art showcase platform Digital art showcase platform",
     date: "2022-06-20",
     demoLink: "https://artgalleryonline.example.com",
   },
@@ -114,7 +114,7 @@ export const BtnList = [
   },
   {
     label: "Resume",
-    link: "/resume.pdf",
+    link: "/Jake_s_Resume.pdf",
     icon: "resume",
     newTab: true,
   },
